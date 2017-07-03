@@ -1,0 +1,6 @@
+<h1><%=@question.title%> - <%=@user.email%></h1>
+
+<p><%=@question.content%> </p>
+
+
+<%= link_to "See Answers", question_answers_path(@question)  %>
